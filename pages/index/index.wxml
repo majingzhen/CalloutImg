@@ -1,0 +1,5 @@
+<cover-image src="{{treatImg}}"/>
+<canvas class="canvas_cla" canvas-id="myCanvas"  bindtouchstart="touchstartFn" bindtouchmove="touchmoveFn" bindtouchend="touchendFn">
+  </canvas>
+<view wx:for="{{arrcss}}" class='hide' style="{{arrcss[index]}}" data-key="{{index}}">
+</view>

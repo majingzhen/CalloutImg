@@ -1,0 +1,16 @@
+
+.canvas_cla {
+  border: 1px solid black;
+  width:99%;
+  height: 400px;
+  float: left;
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hide {
+  z-index: 999;
+  position: absolute;
+  border: 1px solid red;
+}
